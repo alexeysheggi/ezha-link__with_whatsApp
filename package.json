@@ -1,0 +1,19 @@
+{
+  "name": "ezha",
+  "version": "1.0.0",
+  "description": "ezha link",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "i",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat-css": "^3.1.0",
+    "gulp-htmlmin": "^5.0.1"
+  }
+}
