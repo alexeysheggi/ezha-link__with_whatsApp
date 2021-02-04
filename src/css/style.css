@@ -1,0 +1,204 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+	content: none;
+}
+table {
+    border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+@font-face{
+    font-family: 'CodecPro';  
+    src: url('../fonts/CodecPro-News.woff') format('woff'),
+    url('../fonts/CodecPro-News.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+html{
+    touch-action: manipulation;
+}
+
+body{
+    font-family: 'CodecPro';
+    font-weight: 400;
+    font-display: swap;
+    -webkit-font-smoothing: antialiased;
+    color: #333336;
+}
+
+.container{
+    max-width: 360px;
+    margin: auto;
+}
+
+header{
+    padding: 40px 0 0 40px;
+    margin-bottom: 40px;
+}
+
+.logo{
+    width: 50px;
+    margin-bottom: 51px;
+}
+
+.header__title{
+    font-size: 2.25rem;
+}
+
+.button{
+    padding: 0 10px;
+    margin-bottom: 60px;
+}
+
+.stick{
+    border: 1px solid #35353E;
+}
+
+.button__link{
+    border-radius: 25px;
+    background: linear-gradient(233.96deg, #2F2F35 0%, #191A24 100%);
+}
+
+.button__link-item{
+    height: 120px;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.button__link-flag{
+    width: 5px;
+    margin-right: 35px;
+}
+
+.button__block{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social{
+    padding: 0 40px;
+    margin-bottom: 20px;
+}
+
+.social__title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.social__subtitle{
+    font-size: 1.125rem;
+    line-height: 30px;
+    margin-bottom: 39px;
+}
+
+.social__block{
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social__block-item{
+    color: #333336;
+    font-size: 0.875rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 22px 0 10px 0;
+}
+
+.background__message{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social__img--telegram{
+    margin: 3px 3.5px 0 0;
+}
+
+.background__message--telegram{
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(180deg, #2AABEE 0%, #229ED9 99.26%), #419FD9;
+    box-shadow: 0px 7px 12px -2px rgba(53, 183, 247, 0.5);
+    border-radius: 24px;
+}
+
+.background__message--whatsapp{
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(0deg, #0DC143, #0DC143), #419FD9;
+    box-shadow: 0px 7px 12px -2px rgba(13, 193, 67, 0.3);
+    border-radius: 24px;
+}
+
+.social__img{
+    width: 23px;
+    height: 23px;
+}
+
+.social__block-text{
+    font-size: 0.875rem;
+    line-height: 50px;
+}
+
+.staff{
+    border: 1px solid #F6F7F7;
+    height: 130px;
+}
+
+footer{
+    width: 100%;
+    height: 300px;
+    background-image: url(../img/hand.png), url(../img/bg.svg);
+    background-position: 15% bottom, 0px bottom;
+    background-size: 277px, 100%;
+    background-repeat: no-repeat, no-repeat;
+    border-radius: 40px 40px 0px 0px;
+}
